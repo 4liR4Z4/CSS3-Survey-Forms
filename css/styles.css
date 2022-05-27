@@ -1,0 +1,132 @@
+body {
+    background-color: firebrick;
+    padding: 150px 300px 150px 300px;
+    margin: 0;
+}
+
+/* Main ID Tag Elements */
+
+#main {
+    background-color: #ECECEC;
+    border-radius: 0.5%;
+    padding: 40px 25px 40px 25px;
+    text-align: center;
+}
+
+.main-img {
+    height: 40%;
+    width: 40%;
+}
+
+.main-text {
+    margin: 0 0 40px 0;
+    font-size: 1.35rem;
+    font-weight: lighter;
+}
+
+hr {
+    margin: 0 auto 0 auto;
+    border-style: none;
+    border-top: 8px darkorange dotted;
+    width: 10%;
+}
+
+.divider {
+    margin: 25px auto 0 auto;
+}
+
+.divider-2 {
+    margin: 25px auto 25px auto;
+}
+
+/* Form ID Tag Elements */
+
+#form {
+    background-color: #ECECEC;
+}
+
+.form-element {
+    padding: 0 0 20px 100px;
+}
+
+#label {
+    width: 534px;
+    height: 25px;
+}
+
+.label-tag {
+    color: firebrick;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.faculty-text {
+    color: firebrick;
+    margin: 20px auto 15px auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    line-height: 1.2;
+}
+
+#faculty-label {
+    width: 534px;
+    padding: 8px 0 8px 0;
+}
+
+.reason-text {
+    color: firebrick;
+    margin: 0 auto 10px auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    line-height: 1;
+}
+
+#radio-btn {
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.achieve-text {
+    color: firebrick;
+    margin: 0 auto 10px auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    line-height: 1;
+}
+
+#btn-2 {
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.text-box {
+    color: firebrick;
+    margin: 0 auto 10px auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    line-height: 1;
+}
+
+#box {
+    padding: 10px 8px;
+}
+
+.submit-label {
+    border: none;
+    background-color: darkorange;
+    color: white;
+    cursor: pointer;
+    width: 534px;
+    font-size: 1.05rem;
+    font-weight: bold;
+    padding: 12px 0 12px 0;
+}
+
+.submit-label:hover {
+    background-color: firebrick;
+    color: darkorange;
+}

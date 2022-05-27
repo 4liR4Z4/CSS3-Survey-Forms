@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indus University Survey Form</title>
+
+    <!-- Indus University logo -->
+    <link rel="shortcut icon" href="favi/indus-icon.ico" type="image/x-icon">
+
+    <!-- CSS3 External File Link -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Logo & Text are displayed. -->
+    <div id="main">
+        <img class="main-img" src="img/indus-logo.png" alt="indus-uni-logo">
+
+        <p class="main-text">Thank you for taking the time to help us improve the platform.</p>
+
+        <hr>
+    </div>
+
+    <!-- User response will be noted. -->
+    <form id="form">
+        <!-- For Name Label -->
+        <div class="form-element">
+            <label for="name" class="label-tag">Name <br>
+                <input type="text" id="label" name="name" required>
+            </label>
+        </div>
+
+        <div class="form-element">
+            <label for="email" class="label-tag">Email <br>
+                <input type="email" name="email" id="label" required>
+            </label>
+        </div>
+
+        <div class="form-element">
+            <label for="number" class="label-tag">Number <br>
+                <input type="number" name="number" id="label" required>
+            </label>
+        </div>
+
+        <hr class="divider">
+
+        <!-- Choosing Faculty Label. -->
+        <div class="form-element">
+            <p class="faculty-text">Which faculty do you want to enroll in?</p>
+
+            <select name="faculty" id="faculty-label" >
+                <option value="select" disabled selected>Select an option</option>
+
+                <option value="fms">FMS</option>
+
+                <option value="fcit">FCIT</option>
+
+                <option value="fest">FEST</option>
+
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Reason to study at Indus Uni. -->
+        <div class="form-element">
+            <p class="reason-text">Why do you want to study at Indus University?</p>
+
+            <label for="radio" id="radio-btn">
+                <input type="radio" name="radio">Recommended by a friend / family.
+            </label>
+
+            <br>
+
+            <label for="radio" id="radio-btn">
+                <input type="radio" name="radio">State of the art equipment.
+            </label>
+
+            <br>
+
+            <label for="radio" id="radio-btn">
+                <input type="radio" name="radio">Other
+            </label>
+        </div>
+
+        <!-- Achievement Label Questions -->
+        <div class="form-element">
+            <p class="achieve-text">What would you like to achieve in your 4 years?</p>
+            
+            <label for="radio" id="btn-2">
+                <input type="radio" name="radio">Business Management
+            </label>
+            
+            <br>
+            
+            <label for="radio" id="btn-2">
+                <input type="radio" name="radio">Social Interaction
+            </label>
+
+            <br>
+
+            <label for="radio" id="btn-2">
+                <input type="radio" name="radio">Entrepreneurship
+            </label>
+
+            <br>
+
+            <label for="radio" id="btn-2">
+                <input type="radio" name="radio">Programming
+            </label>
+
+            <br>
+
+            <label for="radio" id="btn-2">
+                <input type="radio" name="radio">Other
+            </label>
+        </div>
+
+        <hr class="divider-2">
+
+        <!-- Comments / Sugguestion Box -->
+        <div class="form-element">
+            <p class="text-box">Any comments or suggestion?</p>
+
+            <textarea name="comments" id="box" cols="68" rows="2"></textarea>
+        </div>
+
+        <!-- User's Form Submission -->
+        <div class="form-element">
+            <label for="submit">
+                <input class="submit-label" type="button" value="Submit">
+            </label>
+        </div>
+    </form>
+</body>
+</html>
